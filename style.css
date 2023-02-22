@@ -1,8 +1,7 @@
-h1 {
-    font-size: 96px;
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 700px;
-    line-height: 144px;
+header {
+    background-image: liner-gradient(rbga(0,0,0,0.4), rgba(0,0,0,0.5)),
+    url("img/mount.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
