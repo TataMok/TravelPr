@@ -1,6 +1,6 @@
 body {
     font-family: "Poppins", sans-serif;
-    background: rgb(45, 40, 72);
+    background: rgb(34, 24, 91);
 
 }
 .container {
@@ -14,7 +14,7 @@ body {
 
 header {
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),
-   url("./img/mount.png");
+   url("./img/sw.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -53,7 +53,16 @@ header a {
     margin-top: 32px;
     display: inline-block;
 }
-@media (max-width: 900px) {
+footer {
+    color: aliceblue;
+    background-image: linear-gradient(rgba(34, 24, 91, 0.9), rgba(34, 24, 91, 0.9)),
+    url("./img/mount.png");
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+
+@media (max-width: 960px) {
     header {
         padding: 60px 0;
     }
