@@ -9,8 +9,15 @@ body {
 
 
 }
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
 
-
+.img-responsive {
+    max-width: 100%;
+}
 
 header {
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)),
@@ -88,12 +95,20 @@ footer a {
 section {
     max-width: 1200px;
     margin: 0 auto;
+   
 
 }
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
 grid-gap: 64px;
+}
+.grid-2-colums {
+    grid-template-columns: 1fr 1fr;
+}
+.grid-3-colums-with-first-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
 }
 
 
@@ -110,4 +125,40 @@ grid-gap: 64px;
     header h3 {
         font-size: 12px;
     }
+    .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+
+}
+section {
+    padding: 30px;
+}
+}
+main {
+    background-color: white;
+
+}
+main h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    color: black;
+    opacity: 0.3;
+    margin: 0;
+}
+main h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: black;
+    margin: 0;
+
+}
+main p {
+     font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    opacity: 0.7;
 }
